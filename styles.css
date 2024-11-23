@@ -8,3 +8,65 @@
 html{
     scroll-behavior:smooth;
 }
+.card{
+   width: 70%;
+   max-width: 500px;
+   background: linear-gradient(135deg, #00feba, #180a70);
+   color: black;
+   margin: 100px auto 0;
+   border-radius: 20px;
+   padding: 40px 30px;
+   text-align: left;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(12, 9, 9);
+    color: #00feba;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 45px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: fixed;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button .fa-solid{
+    width: 30px;
+    font-size: 28px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    background-color: red;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
